@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     public void OnRestartButtonClicked()
     {
         Debug.Log("Restart button clicked!");
-
+        //
         // Restart the game by reloading the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
